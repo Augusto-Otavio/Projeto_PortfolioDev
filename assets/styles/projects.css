@@ -1,0 +1,51 @@
+#projects {
+  background-color: var(--color-gray-200);
+  header {
+    text-align: center;
+    span {
+      font: var(--subtitle);
+      color: var(--color-red);
+    }
+
+    h2 {
+      margin-block: 1.25rem;
+      margin-top: 0.5rem;
+      font: var(--title-md);
+      color: var(--color-gray-600);
+      margin-bottom: 3.5rem
+    }
+  }
+
+  div {
+    grid-template-columns: repeat(3, 20.625rem);
+    grid-template-rows: repeat(2, 17.5rem);
+    gap: 1.5rem;
+  }
+
+  .projects-card {
+    padding: 0.75rem 0.75rem;
+    background-color: var(--color-gray-300);
+    border-radius: 0.75rem;
+
+    h3 {
+      font: var(--text-sm);
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+      color: var(--color-gray-600);
+    }
+
+    p {
+      font: var(--text-sm);
+      color: var(--color-gray-500);
+    }
+
+    & > div {
+      padding-block: 1.25rem 1.0625rem;
+    }
+
+    img {
+      width: 19.125rem;
+      height: 9.75rem;
+    }
+  }
+}

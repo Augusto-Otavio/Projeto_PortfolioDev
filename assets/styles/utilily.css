@@ -1,0 +1,38 @@
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.grid-flow-col {
+  grid-auto-flow: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.gap-16 {
+  gap: 1rem;
+}
+
+.subtitle {
+  font: var(--subtitle);
+  color: var(--color-gray-500);
+}
+
+.title-lg {
+  font: var(--title-lg);
+  color: var(--color-gray-600);
+}
+
+.text-sm {
+  font: var(--text-sm);
+  color: var(--color-gray-400);
+}
