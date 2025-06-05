@@ -38,6 +38,7 @@
       padding: 1.25rem;
       background-color: var(--color-gray-300);
       gap: 0.75rem;
+      border-radius: 0.5rem;
 
       h3 {
         font: var(--text-md);
