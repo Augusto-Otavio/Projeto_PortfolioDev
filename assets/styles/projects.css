@@ -1,5 +1,6 @@
 #projects {
   background-color: var(--color-gray-200);
+  padding: 4.5rem 7.5rem 9rem;
   header {
     text-align: center;
     span {
@@ -28,8 +29,7 @@
     border-radius: 0.75rem;
 
     h3 {
-      font: var(--text-sm);
-      font-weight: bold;
+      font: var(--title-sm);
       margin-bottom: 0.5rem;
       color: var(--color-gray-600);
     }

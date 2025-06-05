@@ -14,8 +14,17 @@
   grid-auto-flow: column;
 }
 
+.grid-cols-3 {
+  grid-template-columns: repeat(3, 17.5rem);
+  grid-template-rows: repeat(1, 9.6875rem);
+}
+
 .justify-center {
   justify-content: center;
+}
+
+.items-center {
+  align-items: center;
 }
 
 .gap-16 {
