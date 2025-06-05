@@ -23,4 +23,4 @@ cd seu-repositorio
 Abra o arquivo index.html em um navegador.
 
 📌 Objetivo
-Este projeto serve como um espaço para aprendizado e experimentação, contribuindo para minha evolução como desenvolvedor frontend.
+Este projeto serve como um espaço para aprendizado e experimentação, contribuindo para minha evolução como desenvolvedor fullstack.
